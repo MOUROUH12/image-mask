@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS IMAGE MASK</title>
+    <style>
+        body {
+            min-height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        img {
+     -webkit-mask-image: url(./photo-mask.png);
+    -webkit-mask-size: contain;
+    /* -webkit-mask-position: center; */
+    -webkit-mask-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1605932949605-8904747297bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+</body>
+</html>
